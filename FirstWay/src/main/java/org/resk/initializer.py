@@ -32,9 +32,8 @@ if fuse:
         curDir = pathPath +   "\\solution" + str(i)
         try:
             os.mkdir(curDir)
-            createJavafile(curDir, tempclassname)
         except:
-            print("Такая директория " + pathPath +   "\\solution" + str(i) + " существует")
+            print("Директория " + pathPath +   "\\solution" + str(i) + " существует")
         finally:
             print("Создаю Java файл")
             createJavafile(curDir, tempclassname)
