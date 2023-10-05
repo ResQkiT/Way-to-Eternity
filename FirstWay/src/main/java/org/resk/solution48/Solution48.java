@@ -17,5 +17,6 @@ public class Solution48{
             }
         }).stream().toArray();
         System.out.println(r[0] + " "+ r[r.length - 1]);
+
     }
 }
