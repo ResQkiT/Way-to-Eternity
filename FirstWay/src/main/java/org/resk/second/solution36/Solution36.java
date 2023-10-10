@@ -32,7 +32,7 @@ public class Solution36{
 
         @Override
         public void beEaten() {
-            System.out.println("Собака съедена (Мы в Корее)");
+            System.out.println("개가 먹혔어요");
         }
 
         @Override
