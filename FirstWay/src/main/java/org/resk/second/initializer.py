@@ -3,7 +3,7 @@ import os
 #Если кто-то будет использовать мой скрипт.
 #Поле packagestr необходимо менять для каждого отдельного проекта. 
 #А так же "снимите" с предохранителя
-fuse = True
+fuse = False
 
 packagestr = '''package org.resk.second.solution'''
 classInitStr = '''public class '''
