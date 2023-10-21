@@ -3,9 +3,9 @@ import os
 #Если кто-то будет использовать мой скрипт.
 #Поле packagestr необходимо менять для каждого отдельного проекта. 
 #А так же "снимите" с предохранителя
-fuse = False
+fuse = True
 
-packagestr = '''package org.resk.second.solution'''
+packagestr = '''package org.resk.lesson4.solution'''
 classInitStr = '''public class '''
 className = '''Solution''' 
 mainEnt ='''{
