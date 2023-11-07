@@ -5,7 +5,7 @@ import os
 #А так же "снимите" с предохранителя
 fuse = False
 
-packagestr = '''package org.resk.lesson4.solution'''
+packagestr = '''package org.resk.lesson5.solution'''
 classInitStr = '''public class '''
 className = '''Solution''' 
 mainEnt ='''{
